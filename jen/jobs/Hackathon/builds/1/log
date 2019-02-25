@@ -1,339 +1,0 @@
-Started by user [8mha:////4P98+vbFxKxhQ1tJvcAEus6ncYEv2g9ojeP+dAFxbJXsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Running in Durability level: MAX_SURVIVABILITY
-[8mha:////4KB/tahIzKmC+KVLu010ZD4T4UbrY5RDAKi1nU4diRlOAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4PE13M8RtNYJm3yYAjcByp39MU14xX3iXAmC3zCzgadYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4HH2jvqmbj6MamBZdSMB01fNiDVopOI+EBjvXM6oo8LlAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/Hackathon
-[8mha:////4Mxr9aZFYcGHdCj+gy2itfM7K92AbmBd7hiuJ29fDtg/AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4J6twWR6Y2SH19RtonQIiXiG73qve/vCIqMi98CRnGEqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
-[8mha:////4JV+6qDkFn7QMVFb2ASmMCHKo/5/ygMtIJP6qkNu64RVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
-[8mha:////4ARMD0AuUUXQvW6y7XT+awhPVbmDty76ZSA6ddwh5i6rAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
-[8mha:////4BBq68KCWQsPnRNqFRtrnVuaLSIbM4cchsVppUbPuT++AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Cloning Git)
-[8mha:////4J6LHAXlDkm0+tT8BcOmh+OzaH3BbdLGHHBD1buFM62YAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] git
-No credentials specified
-Cloning the remote Git repository
-Cloning repository https://github.com/spdoc/mysql.git
- > git init /var/jenkins_home/workspace/Hackathon # timeout=10
-Fetching upstream changes from https://github.com/spdoc/mysql.git
- > git --version # timeout=10
- > git fetch --tags --progress https://github.com/spdoc/mysql.git +refs/heads/*:refs/remotes/origin/*
- > git config remote.origin.url https://github.com/spdoc/mysql.git # timeout=10
- > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
- > git config remote.origin.url https://github.com/spdoc/mysql.git # timeout=10
-Fetching upstream changes from https://github.com/spdoc/mysql.git
- > git fetch --tags --progress https://github.com/spdoc/mysql.git +refs/heads/*:refs/remotes/origin/*
- > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
- > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
-Checking out Revision d95adb3b4a71e03208cabd1bb8fed6b13da626db (refs/remotes/origin/master)
- > git config core.sparsecheckout # timeout=10
- > git checkout -f d95adb3b4a71e03208cabd1bb8fed6b13da626db
- > git branch -a -v --no-abbrev # timeout=10
- > git checkout -b master d95adb3b4a71e03208cabd1bb8fed6b13da626db
-Commit message: "Update README.md"
-First time build. Skipping changelog.
-[8mha:////4MZH87U6tWyTV7wUEWnOFHkp/+p9CoHmVN1j6ne8z+/AAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
-[8mha:////4I68/LqYdKSA3OK4YjOPnw2/awhqI0TKOwrUJBcoSjsIAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
-[8mha:////4Hx8Hrr32eIgTNzms0PW0FgEjG3/pEs7TfDxaxKSpalAAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
-[8mha:////4FUJFqYyUhqnOtSGYlNu70+/OCKXnrHfzZZv4Mm4WDy1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Building image)
-[8mha:////4Hn2xTZm9si50zvnd9npaK6vq15HXpZhSGqjjlOSPJ3OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
-[8mha:////4BFyFF8jlyJThjN/Yj9YbKQnEKbo0pWmVyTw5+QED0emAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
-[8mha:////4ADuHQ/4Hw5QwysWzAVnzmu532Mzj0GRkLvEYWskjqLFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
-+ docker build -t sumeetpanse/wikijen:1 .
-Sending build context to Docker daemon  1.964MB
-Step 1/4 : FROM bitnami/mediawiki:latest
- ---> e905d1d422e8
-Step 2/4 : USER root
- ---> Running in 872f19ec4fd9
-Removing intermediate container 872f19ec4fd9
- ---> 9bd92c72a26e
-Step 3/4 : CMD /bin/bash
- ---> Running in d18ea6797dad
-Removing intermediate container d18ea6797dad
- ---> 3bfd8030a77c
-Step 4/4 : RUN  apt-get update   && apt-get install -y wget   && apt-get install -y git   && rm -rf /var/lib/apt/lists/*
- ---> Running in 38aee19fd3ca
-Ign:1 http://cdn-fastly.deb.debian.org/debian stretch InRelease
-Get:2 http://security-cdn.debian.org stretch/updates InRelease [94.3 kB]
-Get:4 http://security-cdn.debian.org stretch/updates/main amd64 Packages [592 kB]
-Get:3 http://cdn-fastly.deb.debian.org/debian stretch Release [118 kB]
-Get:5 http://cdn-fastly.deb.debian.org/debian stretch Release.gpg [2,434 B]
-Get:6 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 Packages [9,478 kB]
-Fetched 10.3 MB in 2s (5,080 kB/s)
-Reading package lists...
-Reading package lists...
-Building dependency tree...
-Reading state information...
-The following NEW packages will be installed:
-  wget
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 799 kB of archives.
-After this operation, 2,813 kB of additional disk space will be used.
-Get:1 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 wget amd64 1.18-5+deb9u2 [799 kB]
-[91mdebconf: delaying package configuration, since apt-utils is not installed
-[0mFetched 799 kB in 0s (1,482 kB/s)
-Selecting previously unselected package wget.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7979 files and directories currently installed.)
-Preparing to unpack .../wget_1.18-5+deb9u2_amd64.deb ...
-Unpacking wget (1.18-5+deb9u2) ...
-Setting up wget (1.18-5+deb9u2) ...
-Reading package lists...
-Building dependency tree...
-Reading state information...
-The following additional packages will be installed:
-  git-man less libbsd0 libcurl3-gnutls libedit2 liberror-perl libgdbm3
-  libperl5.24 libpopt0 libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6
-  libxmuu1 netbase openssh-client patch perl perl-modules-5.24 rename rsync
-  xauth
-Suggested packages:
-  gettext-base git-daemon-run | git-daemon-sysvinit git-doc git-el git-email
-  git-gui gitk gitweb git-arch git-cvs git-mediawiki git-svn keychain
-  libpam-ssh monkeysphere ssh-askpass ed diffutils-doc perl-doc
-  libterm-readline-gnu-perl | libterm-readline-perl-perl make openssh-server
-The following NEW packages will be installed:
-  git git-man less libbsd0 libcurl3-gnutls libedit2 liberror-perl libgdbm3
-  libperl5.24 libpopt0 libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6
-  libxmuu1 netbase openssh-client patch perl perl-modules-5.24 rename rsync
-  xauth
-0 upgraded, 25 newly installed, 0 to remove and 0 not upgraded.
-Need to get 15.4 MB of archives.
-After this operation, 82.1 MB of additional disk space will be used.
-Get:1 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 perl-modules-5.24 all 5.24.1-3+deb9u5 [2,722 kB]
-Get:2 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libgdbm3 amd64 1.8.3-14 [30.0 kB]
-Get:3 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libperl5.24 amd64 5.24.1-3+deb9u5 [3,501 kB]
-Get:4 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 perl amd64 5.24.1-3+deb9u5 [219 kB]
-Get:5 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libcurl3-gnutls amd64 7.52.1-5+deb9u9 [290 kB]
-Get:6 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 liberror-perl all 0.17024-1 [26.9 kB]
-Get:7 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 git-man all 1:2.11.0-3+deb9u4 [1,433 kB]
-Get:8 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 git amd64 1:2.11.0-3+deb9u4 [4,167 kB]
-Get:9 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libxau6 amd64 1:1.0.8-1 [20.7 kB]
-Get:10 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libpopt0 amd64 1.16-10+b2 [49.4 kB]
-Get:11 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 netbase all 5.4 [19.1 kB]
-Get:12 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 less amd64 481-2.1 [126 kB]
-Get:13 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libbsd0 amd64 0.8.3-1 [83.0 kB]
-Get:14 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libedit2 amd64 3.1-20160903-3 [84.8 kB]
-Get:15 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 openssh-client amd64 1:7.4p1-10+deb9u5 [779 kB]
-Get:16 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]
-Get:17 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libxcb1 amd64 1.12-1 [133 kB]
-Get:18 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libx11-data all 2:1.6.4-3+deb9u1 [287 kB]
-Get:19 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libx11-6 amd64 2:1.6.4-3+deb9u1 [748 kB]
-Get:20 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libxext6 amd64 2:1.3.3-1+b2 [52.5 kB]
-Get:21 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 libxmuu1 amd64 2:1.1.2-2 [23.5 kB]
-Get:22 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 patch amd64 2.7.5-1+deb9u1 [112 kB]
-Get:23 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 rename all 0.20-4 [12.5 kB]
-Get:24 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 rsync amd64 3.1.2-1+deb9u1 [393 kB]
-Get:25 http://cdn-fastly.deb.debian.org/debian stretch/main amd64 xauth amd64 1:1.0.9-1+b2 [39.6 kB]
-[91mdebconf: delaying package configuration, since apt-utils is not installed
-[0mFetched 15.4 MB in 2s (7,371 kB/s)
-Selecting previously unselected package perl-modules-5.24.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 8030 files and directories currently installed.)
-Preparing to unpack .../00-perl-modules-5.24_5.24.1-3+deb9u5_all.deb ...
-Unpacking perl-modules-5.24 (5.24.1-3+deb9u5) ...
-Selecting previously unselected package libgdbm3:amd64.
-Preparing to unpack .../01-libgdbm3_1.8.3-14_amd64.deb ...
-Unpacking libgdbm3:amd64 (1.8.3-14) ...
-Selecting previously unselected package libperl5.24:amd64.
-Preparing to unpack .../02-libperl5.24_5.24.1-3+deb9u5_amd64.deb ...
-Unpacking libperl5.24:amd64 (5.24.1-3+deb9u5) ...
-Selecting previously unselected package perl.
-Preparing to unpack .../03-perl_5.24.1-3+deb9u5_amd64.deb ...
-Unpacking perl (5.24.1-3+deb9u5) ...
-Selecting previously unselected package libcurl3-gnutls:amd64.
-Preparing to unpack .../04-libcurl3-gnutls_7.52.1-5+deb9u9_amd64.deb ...
-Unpacking libcurl3-gnutls:amd64 (7.52.1-5+deb9u9) ...
-Selecting previously unselected package liberror-perl.
-Preparing to unpack .../05-liberror-perl_0.17024-1_all.deb ...
-Unpacking liberror-perl (0.17024-1) ...
-Selecting previously unselected package git-man.
-Preparing to unpack .../06-git-man_1%3a2.11.0-3+deb9u4_all.deb ...
-Unpacking git-man (1:2.11.0-3+deb9u4) ...
-Selecting previously unselected package git.
-Preparing to unpack .../07-git_1%3a2.11.0-3+deb9u4_amd64.deb ...
-Unpacking git (1:2.11.0-3+deb9u4) ...
-Selecting previously unselected package libxau6:amd64.
-Preparing to unpack .../08-libxau6_1%3a1.0.8-1_amd64.deb ...
-Unpacking libxau6:amd64 (1:1.0.8-1) ...
-Selecting previously unselected package libpopt0:amd64.
-Preparing to unpack .../09-libpopt0_1.16-10+b2_amd64.deb ...
-Unpacking libpopt0:amd64 (1.16-10+b2) ...
-Selecting previously unselected package netbase.
-Preparing to unpack .../10-netbase_5.4_all.deb ...
-Unpacking netbase (5.4) ...
-Selecting previously unselected package less.
-Preparing to unpack .../11-less_481-2.1_amd64.deb ...
-Unpacking less (481-2.1) ...
-Selecting previously unselected package libbsd0:amd64.
-Preparing to unpack .../12-libbsd0_0.8.3-1_amd64.deb ...
-Unpacking libbsd0:amd64 (0.8.3-1) ...
-Selecting previously unselected package libedit2:amd64.
-Preparing to unpack .../13-libedit2_3.1-20160903-3_amd64.deb ...
-Unpacking libedit2:amd64 (3.1-20160903-3) ...
-Selecting previously unselected package openssh-client.
-Preparing to unpack .../14-openssh-client_1%3a7.4p1-10+deb9u5_amd64.deb ...
-Unpacking openssh-client (1:7.4p1-10+deb9u5) ...
-Selecting previously unselected package libxdmcp6:amd64.
-Preparing to unpack .../15-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
-Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
-Selecting previously unselected package libxcb1:amd64.
-Preparing to unpack .../16-libxcb1_1.12-1_amd64.deb ...
-Unpacking libxcb1:amd64 (1.12-1) ...
-Selecting previously unselected package libx11-data.
-Preparing to unpack .../17-libx11-data_2%3a1.6.4-3+deb9u1_all.deb ...
-Unpacking libx11-data (2:1.6.4-3+deb9u1) ...
-Selecting previously unselected package libx11-6:amd64.
-Preparing to unpack .../18-libx11-6_2%3a1.6.4-3+deb9u1_amd64.deb ...
-Unpacking libx11-6:amd64 (2:1.6.4-3+deb9u1) ...
-Selecting previously unselected package libxext6:amd64.
-Preparing to unpack .../19-libxext6_2%3a1.3.3-1+b2_amd64.deb ...
-Unpacking libxext6:amd64 (2:1.3.3-1+b2) ...
-Selecting previously unselected package libxmuu1:amd64.
-Preparing to unpack .../20-libxmuu1_2%3a1.1.2-2_amd64.deb ...
-Unpacking libxmuu1:amd64 (2:1.1.2-2) ...
-Selecting previously unselected package patch.
-Preparing to unpack .../21-patch_2.7.5-1+deb9u1_amd64.deb ...
-Unpacking patch (2.7.5-1+deb9u1) ...
-Selecting previously unselected package rename.
-Preparing to unpack .../22-rename_0.20-4_all.deb ...
-Unpacking rename (0.20-4) ...
-Selecting previously unselected package rsync.
-Preparing to unpack .../23-rsync_3.1.2-1+deb9u1_amd64.deb ...
-Unpacking rsync (3.1.2-1+deb9u1) ...
-Selecting previously unselected package xauth.
-Preparing to unpack .../24-xauth_1%3a1.0.9-1+b2_amd64.deb ...
-Unpacking xauth (1:1.0.9-1+b2) ...
-Setting up perl-modules-5.24 (5.24.1-3+deb9u5) ...
-Setting up libgdbm3:amd64 (1.8.3-14) ...
-Setting up libperl5.24:amd64 (5.24.1-3+deb9u5) ...
-Setting up git-man (1:2.11.0-3+deb9u4) ...
-Setting up libpopt0:amd64 (1.16-10+b2) ...
-Setting up less (481-2.1) ...
-debconf: unable to initialize frontend: Dialog
-debconf: (TERM is not set, so the dialog frontend is not usable.)
-debconf: falling back to frontend: Readline
-Setting up libcurl3-gnutls:amd64 (7.52.1-5+deb9u9) ...
-Setting up libbsd0:amd64 (0.8.3-1) ...
-Setting up rsync (3.1.2-1+deb9u1) ...
-invoke-rc.d: could not determine current runlevel
-invoke-rc.d: policy-rc.d denied execution of restart.
-Setting up perl (5.24.1-3+deb9u5) ...
-update-alternatives: using /usr/bin/prename to provide /usr/bin/rename (rename) in auto mode
-Setting up patch (2.7.5-1+deb9u1) ...
-Processing triggers for libc-bin (2.24-11+deb9u4) ...
-Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
-Setting up libx11-data (2:1.6.4-3+deb9u1) ...
-Setting up libxau6:amd64 (1:1.0.8-1) ...
-Setting up netbase (5.4) ...
-Setting up libedit2:amd64 (3.1-20160903-3) ...
-Setting up liberror-perl (0.17024-1) ...
-Setting up rename (0.20-4) ...
-update-alternatives: using /usr/bin/file-rename to provide /usr/bin/rename (rename) in auto mode
-Setting up openssh-client (1:7.4p1-10+deb9u5) ...
-Setting up libxcb1:amd64 (1.12-1) ...
-Setting up git (1:2.11.0-3+deb9u4) ...
-Setting up libx11-6:amd64 (2:1.6.4-3+deb9u1) ...
-Setting up libxmuu1:amd64 (2:1.1.2-2) ...
-Setting up libxext6:amd64 (2:1.3.3-1+b2) ...
-Setting up xauth (1:1.0.9-1+b2) ...
-Processing triggers for libc-bin (2.24-11+deb9u4) ...
-Removing intermediate container 38aee19fd3ca
- ---> 99371a5870e7
-Successfully built 99371a5870e7
-Successfully tagged sumeetpanse/wikijen:1
-[8mha:////4C/FSnK6RcLzIUKb07U+Y8Sy7zQ2EeLK/VQjl5NzvC0VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] dockerFingerprintFrom
-[8mha:////4LM/LJ124/Flf3JToAQ9i+YB74LklH6xy1nu05QqAi+bAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
-[8mha:////4GrEvnlCq3mE02K2SEuQJKOVd/532X+sZN82pdAQxyAiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // script
-[8mha:////4Kj3VYaU/YBgJzMs9xRKERbU5XpSfiMWr+vU6Sxr/zN2AAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPp7sC76+AAAA[0m[Pipeline] }
-[8mha:////4DJHu5wXLgUkdxUpFcPayvOmKdiqY8lG85+48zTnbl56AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZ1rrr5AK0PUAK+AAAA[0m[Pipeline] // stage
-[8mha:////4NNR57qRGPXABbY84MgKR79KU34WoUogr7IDlpC424cGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYQjpaBBVLSWG15gYmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKUIB4pOdBZ7j6n1Ygijy01MFPtLoEl0dBYtYaJghbKTImOPCypiC0uKElYS1hbbQMmjY9jITt91HTS6+sQxb3sJpTc3eEAhs5l15C/MEbbX0STCn+evAOaBodgxlE3zOVZv4eZmdcEAAAA=[0m[Pipeline] stage
-[8mha:////4DW3OHZBysYexrnicybd8gTQ//kbnqWkRjtkhSckr5jfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Deploy Image)
-[8mha:////4IMltJn1hM7p9GZAE8RbXnqKNde4TjkMjr7uaNvOWwWrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] script
-[8mha:////4KTVKl2QLGFcj41125nWmHqf/je4fDsMVeUqadZuQ1o8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
-[8mha:////4MV7sdHiFFoiHMdywrfI7wbLKSlID6wHk4QZRavbrXocAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] withEnv
-[8mha:////4CtslDyk2LFc5KA3xgVk8sY0YNtAlP2fGwdpYt4nR046AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
-[8mha:////4AahGKEP3MOPPwBS71hwGm/LoQzmpfTZVkx2Xpvw0ZS3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] withDockerRegistry
-$ docker login -u sumeetpanse -p ******** https://index.docker.io/v1/
-WARNING! Using --password via the CLI is insecure. Use --password-stdin.
-Login Succeeded
-[8mha:////4Eh+R5DUzIA8RpKNGS8kCZlFujUlAu2yFYWXdWNSrfrLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
-[8mha:////4HoBu3+/7ser7ocQUiDoeCuYObWqMsV1PTzqpwKApxD4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
-+ docker tag sumeetpanse/wikijen:1 sumeetpanse/wikijen:1
-[8mha:////4MiTqMYRA/QMNwnC1UJKpFIzfTbcssM4052xhSSNYPdfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] sh
-+ docker push sumeetpanse/wikijen:1
-The push refers to repository [docker.io/sumeetpanse/wikijen]
-18fd66c88c6c: Preparing
-5902ec7b5951: Preparing
-59be29a24eef: Preparing
-39ad349f39fa: Preparing
-5deb5db7ba78: Preparing
-f2dfbd71f210: Preparing
-6814f5b5121b: Preparing
-69c2638154a3: Preparing
-9af50655cada: Preparing
-4dd5670c2f9b: Preparing
-b7946f6916ea: Preparing
-c9e371ec924f: Preparing
-90ba826ff118: Preparing
-283fadd93d43: Preparing
-9489f1d7c7da: Preparing
-078252fcce68: Preparing
-c7638e74ba12: Preparing
-1bd08f048149: Preparing
-c7b302c1b6c9: Preparing
-f2dfbd71f210: Waiting
-6814f5b5121b: Waiting
-69c2638154a3: Waiting
-9af50655cada: Waiting
-4dd5670c2f9b: Waiting
-b7946f6916ea: Waiting
-c9e371ec924f: Waiting
-90ba826ff118: Waiting
-283fadd93d43: Waiting
-9489f1d7c7da: Waiting
-078252fcce68: Waiting
-c7638e74ba12: Waiting
-1bd08f048149: Waiting
-c7b302c1b6c9: Waiting
-5902ec7b5951: Layer already exists
-59be29a24eef: Layer already exists
-5deb5db7ba78: Layer already exists
-39ad349f39fa: Layer already exists
-f2dfbd71f210: Layer already exists
-6814f5b5121b: Layer already exists
-9af50655cada: Layer already exists
-69c2638154a3: Layer already exists
-4dd5670c2f9b: Layer already exists
-c9e371ec924f: Layer already exists
-90ba826ff118: Layer already exists
-b7946f6916ea: Layer already exists
-283fadd93d43: Layer already exists
-9489f1d7c7da: Layer already exists
-078252fcce68: Layer already exists
-c7638e74ba12: Layer already exists
-1bd08f048149: Layer already exists
-c7b302c1b6c9: Layer already exists
-18fd66c88c6c: Pushed
-1: digest: sha256:733dbeab470196bde1d2edc88caaf79eb574cb1b8d52686f98d79a22d3873fb0 size: 4309
-[8mha:////4DorsqolUfC5RgvBzQd72wDlKTzbTtB88T9u/Xr1wMSLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AH8/EyevgAAAA==[0m[Pipeline] }
-[8mha:////4Aae21oNprK8Ijaemu5njN5NmM8WKSPAn2zO1/AdvPOvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIOEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/PHxcivgAAAA==[0m[Pipeline] // withDockerRegistry
-[8mha:////4MzVoUIbK+C4hsQMasORR4+3i/3kTTzGwYJQOfgQl5YyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwA5jKtr74AAAA=[0m[Pipeline] }
-[8mha:////4E3YLLtFWA2Fvh3BVeijGA70PdeaEecgAWjTSEjzHobuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/V0fYTvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4FX7WMLPM6GNwtJ9pORm0aQVrVc+3RU3RQH4xxPoTB6LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/B8msMvgAAAA==[0m[Pipeline] }
-[8mha:////4EUrwUJUMALQtZuQd8PDTVSPvhyTPlzFVdvcsf8K8TjTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8A8hEwsL4AAAA=[0m[Pipeline] // script
-[8mha:////4Ahe5bhA2O8tHUg6Cv60JK488v0nvw5rPX1Q/gLq9YGYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIOEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w+ENgLfvgAAAA==[0m[Pipeline] }
-[8mha:////4IGeEgUexXi/cuXyN2tpwPTNw/FD0+5xjW85xd+70yc/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QG31VljvgAAAA==[0m[Pipeline] // stage
-[8mha:////4AWsz7ctospfioIQSTHRFqb3hRQVPvxTOLiiszg5RFY1AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDgWgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZv0HJ+W8EAAAA=[0m[Pipeline] stage
-[8mha:////4HklCjnT8hiI1pHz4nSL+ZNgf3sWlLTf/6YwH1pV54X3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Remove Unused docker image)
-[8mha:////4ELQFi3/BY+fZ1kaZxWtV4MBbXuhgBg6TLzi5rL2+VFMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] sh
-+ docker rmi sumeetpanse/wikijen:1
-Untagged: sumeetpanse/wikijen:1
-Untagged: sumeetpanse/wikijen@sha256:733dbeab470196bde1d2edc88caaf79eb574cb1b8d52686f98d79a22d3873fb0
-Deleted: sha256:99371a5870e7dd0882d596aca200571fbac16c7a5fc4f2678249f633debe474c
-Deleted: sha256:81fbef23c46a1e11a992aa91226e5620f3b3c232af9de43cac6bb922f8077218
-Deleted: sha256:3bfd8030a77c229eb393c6ca4e21b63bbab377a045d314813a99caac86bfa6c9
-Deleted: sha256:9bd92c72a26eeeb7271b8b6a663fb9209b75db1d985e633b80193c088fbfae35
-[8mha:////4Op/sjhuSnyIlLN6r9eHkEuqZPqcDnEt1hMIpudKXTG1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BmM+Nsi+AAAA[0m[Pipeline] }
-[8mha:////4EX+W0YUvRHs4OtrPvUayv8KaKx6BH9dpUzuwt/NKdMvAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCkQ5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTT40or4AAAA=[0m[Pipeline] // stage
-[8mha:////4OSCmhetYGO+4/AVfANV1q13CNos55GsQyqqfPiexPQUAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfItztBtv8AalRmpL0AAAA=[0m[Pipeline] }
-[8mha:////4C+gSpgG8FgEe8plAffdgqBkMY0nPvBFWI1KrN/inCZKAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsAAH/Per0AAAA=[0m[Pipeline] // withEnv
-[8mha:////4DkvcXW4wwRER1J5KqFclfolEJ7t5Qj8gYG28phh8nwRAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsJA7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHJmaoML0AAAA=[0m[Pipeline] }
-[8mha:////4NF89IqG7lr2owamI/bZBm7nb4PHFpoqvvGEh30B6yvIAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AFRknCy9AAAA[0m[Pipeline] // node
-[8mha:////4J3mGKLzFZJLUnb/8Whoav87a19Wolh7xposFm8AFyp+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREA1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AHJ9+2a9AAAA[0m[Pipeline] End of Pipeline
-Finished: SUCCESS
