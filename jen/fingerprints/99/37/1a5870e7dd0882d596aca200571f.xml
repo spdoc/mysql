@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-25 15:32:27.922 UTC</timestamp>
+  <original>
+    <name>Hackathon</name>
+    <number>1</number>
+  </original>
+  <md5sum>99371a5870e7dd0882d596aca200571f</md5sum>
+  <fileName>Docker image sha256:99371a5870e7dd0882d596aca200571fbac16c7a5fc4f2678249f633debe474c</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1551108747855</timestamp>
+      <imageId>sha256:99371a5870e7dd0882d596aca200571fbac16c7a5fc4f2678249f633debe474c</imageId>
+      <usages>
+        <entry>
+          <string>Hackathon</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:e905d1d422e8500331abb836438f92078dc9e45af289f00e9128f122a4bcdee0</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+  </facets>
+</fingerprint>
