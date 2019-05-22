@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.3">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/spdoc/InfyWiki.git</url>
+        <credentialsId>githubjen</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.29.4">
+      <spec></spec>
+    </com.cloudbees.jenkins.GitHubPushTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <org.jvnet.hudson.plugins.SSHBuilder plugin="ssh@2.6.1">
+      <siteName>ec2-user@13.126.42.204:22</siteName>
+      <command>sudo sh -c &apos;rm -rf Infyjenk;git clone https://sumeetpanse%40yahoo.com:SPdoc%406177@github.com/sumeetpanse/Infyjenk.git;cd Infyjenk;db=$(aws rds describe-db-instances | grep &quot;Address&quot; | grep -i Hackathon | cut -f2 -d&quot;:&quot; | tr -d &quot;\&quot;&quot; | tr -d &quot;\,&quot;);sed -i &quot;/- MARIADB_HOST=/c\      - MARIADB_HOST=$(echo ${db//[[:blank:]]/})&quot; docker-compose.yml;/usr/local/bin/ecs-cli compose --file docker-compose.yml --project-name InfyWiki --verbose create &gt; TaskInfy;TD=$(grep -r &quot;TaskDefinition=\&quot;InfyWiki:*&quot; TaskInfy | grep InfyWiki: | cut -f5 -d&quot;=&quot; | tr -d &quot;\&quot;&quot; | tr -d &quot;\,&quot;);aws ecs update-service --service &quot;InfyWiki&quot; --cluster &quot;InfyWiki&quot; --task-definition $TD;cd ..;rm -rf Infyjenk;&apos;</command>
+      <execEachLine>false</execEachLine>
+      <hideCommand>false</hideCommand>
+    </org.jvnet.hudson.plugins.SSHBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

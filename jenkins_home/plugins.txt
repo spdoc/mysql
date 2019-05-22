@@ -29,6 +29,8 @@ workflow-durable-task-step:latest
 matrix-project:latest
 mailer:latest
 resource-disposer:latest
+ssh:latest
+ssh-credentials:latest
 git:latest
 ws-cleanup:latest
 ant:latest

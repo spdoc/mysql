@@ -1,0 +1,11 @@
+commit 01153e978d1e97f13f750ab44543223fb8fd26db
+tree 3610523c55550c20c74a172da45a39aff24a2137
+parent 1b94e58ff1644ba290eefda2f92608dae480ed31
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-06 00:45:22 +0530
+committer GitHub <noreply@github.com> 2019-04-06 00:45:22 +0530
+
+    Update docker-compose2.yml
+
+
+
+:100644 100644 f166828831e1c501fc9713a1e0f279e70a1f533c 0ab1e608b9e2623b7b0639a53f58ad56f73785c9 M	docker-compose2.yml

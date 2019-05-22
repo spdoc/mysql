@@ -1,0 +1,128 @@
+Started by GitHub push by spdoc
+Building in workspace /var/jenkins_home/workspace/InfyWikiDeploy
+using credential githubjen
+Cloning the remote Git repository
+Cloning repository https://github.com/spdoc/InfyWiki.git
+ > git init /var/jenkins_home/workspace/InfyWikiDeploy # timeout=10
+Fetching upstream changes from https://github.com/spdoc/InfyWiki.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git fetch --tags --progress https://github.com/spdoc/InfyWiki.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/spdoc/InfyWiki.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/spdoc/InfyWiki.git # timeout=10
+Fetching upstream changes from https://github.com/spdoc/InfyWiki.git
+using GIT_ASKPASS to set credentials githubjen
+ > git fetch --tags --progress https://github.com/spdoc/InfyWiki.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8cef78916b206fc05e02a256fa5a3629cafb250b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8cef78916b206fc05e02a256fa5a3629cafb250b
+Commit message: "Update LocalSettings1.php"
+ > git rev-list --no-walk 17c35ed55d7912046ac11147a6a1c84dba3952b4 # timeout=10
+[SSH] script:
+
+sudo sh -c 'rm -rf Infyjenk;git clone https://sumeetpanse%40yahoo.com:SPdoc%406177@github.com/sumeetpanse/Infyjenk.git;cd Infyjenk;db=$(aws rds describe-db-instances | grep "Address" | grep -i Hackathon | cut -f2 -d":" | tr -d "\"" | tr -d "\,");sed -i "/- MARIADB_HOST=/c\      - MARIADB_HOST=$(echo ${db//[[:blank:]]/})" docker-compose.yml;/usr/local/bin/ecs-cli compose --file docker-compose.yml --project-name InfyWiki --verbose create > TaskInfy;TD=$(grep -r "TaskDefinition=\"InfyWiki:*" TaskInfy | grep InfyWiki: | cut -f5 -d"=" | tr -d "\"" | tr -d "\,");aws ecs update-service --service "InfyWiki" --cluster "InfyWiki" --task-definition $TD;cd ..;rm -rf Infyjenk;'
+
+[SSH] executing...
+Cloning into 'Infyjenk'...
+{
+    "service": {
+        "launchType": "EC2", 
+        "enableECSManagedTags": false, 
+        "loadBalancers": [
+            {
+                "containerName": "mediawiki", 
+                "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:047164039696:targetgroup/wiki1/5227edaaf26ec1ea", 
+                "containerPort": 80
+            }
+        ], 
+        "desiredCount": 2, 
+        "clusterArn": "arn:aws:ecs:ap-south-1:047164039696:cluster/InfyWiki", 
+        "serviceArn": "arn:aws:ecs:ap-south-1:047164039696:service/InfyWiki", 
+        "deploymentConfiguration": {
+            "maximumPercent": 200, 
+            "minimumHealthyPercent": 50
+        }, 
+        "createdAt": 1554402995.236, 
+        "healthCheckGracePeriodSeconds": 0, 
+        "schedulingStrategy": "REPLICA", 
+        "placementConstraints": [], 
+        "deployments": [
+            {
+                "status": "PRIMARY", 
+                "pendingCount": 0, 
+                "launchType": "EC2", 
+                "createdAt": 1554493795.651, 
+                "desiredCount": 2, 
+                "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/InfyWiki:138", 
+                "updatedAt": 1554493795.651, 
+                "id": "ecs-svc/9223370482360980156", 
+                "runningCount": 0
+            }, 
+            {
+                "status": "ACTIVE", 
+                "pendingCount": 0, 
+                "launchType": "EC2", 
+                "createdAt": 1554402995.236, 
+                "desiredCount": 2, 
+                "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/InfyWiki:135", 
+                "updatedAt": 1554403098.439, 
+                "id": "ecs-svc/9223370482451780564", 
+                "runningCount": 2
+            }
+        ], 
+        "serviceName": "InfyWiki", 
+        "events": [
+            {
+                "message": "(service InfyWiki) has reached a steady state.", 
+                "id": "4b75662a-d7df-45e3-b2e8-9ffce6a385ff", 
+                "createdAt": 1554489573.156
+            }, 
+            {
+                "message": "(service InfyWiki) has reached a steady state.", 
+                "id": "63a30689-928c-491b-9800-67f99c3c8770", 
+                "createdAt": 1554467934.569
+            }, 
+            {
+                "message": "(service InfyWiki) has reached a steady state.", 
+                "id": "b4322493-23ee-43b4-a6bb-cf6b18d79001", 
+                "createdAt": 1554446306.528
+            }, 
+            {
+                "message": "(service InfyWiki) has reached a steady state.", 
+                "id": "7690fd51-3dfd-42d9-8ffc-27263555b5be", 
+                "createdAt": 1554424704.619
+            }, 
+            {
+                "message": "(service InfyWiki) has reached a steady state.", 
+                "id": "673baa1b-1493-4c06-8428-d0c7cec2f195", 
+                "createdAt": 1554403098.443
+            }, 
+            {
+                "message": "(service InfyWiki) registered 1 targets in (target-group arn:aws:elasticloadbalancing:ap-south-1:047164039696:targetgroup/wiki1/5227edaaf26ec1ea)", 
+                "id": "d45eebe2-4d5c-41f0-9e40-7ea979b0063a", 
+                "createdAt": 1554403031.125
+            }, 
+            {
+                "message": "(service InfyWiki) has started 2 tasks: (task ee229264-9d58-4324-b931-cd9ca52f4ace) (task 24f02e49-7894-4487-9d04-b485cf19d1b6).", 
+                "id": "c8c9e029-7db7-4315-abe1-222051ea4ae3", 
+                "createdAt": 1554403001.065
+            }
+        ], 
+        "runningCount": 2, 
+        "status": "ACTIVE", 
+        "serviceRegistries": [], 
+        "pendingCount": 0, 
+        "placementStrategy": [], 
+        "propagateTags": "NONE", 
+        "roleArn": "arn:aws:iam::047164039696:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS", 
+        "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/InfyWiki:138"
+    }
+}
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

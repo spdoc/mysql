@@ -1,0 +1,20 @@
+Started on Apr 4, 2019 7:35:32 PM
+Started by event from 192.30.252.35 ⇒ http://www.jenk.infywiki.tk/github-webhook/ on Thu Apr 04 19:35:32 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision f3cf442672dbf91d1b735bc59f8b2b6d6e1ecfd3 (refs/remotes/origin/master)
+using credential githubjen
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git ls-remote -h https://github.com/spdoc/Dockerfile-DockerCompose.git # timeout=10
+Found 1 remote heads on https://github.com/spdoc/Dockerfile-DockerCompose.git
+[poll] Latest remote head revision on refs/heads/master is: 86a5d73aef677455e88e83bfb8831aa9092b2aef
+Using strategy: Default
+[poll] Last Built Revision: Revision f3cf442672dbf91d1b735bc59f8b2b6d6e1ecfd3 (refs/remotes/origin/master)
+using credential githubjen
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git ls-remote -h https://github.com/spdoc/Dockerfile-DockerCompose.git # timeout=10
+Found 1 remote heads on https://github.com/spdoc/Dockerfile-DockerCompose.git
+[poll] Latest remote head revision on refs/heads/master is: 86a5d73aef677455e88e83bfb8831aa9092b2aef
+Done. Took 4 sec
+Changes found

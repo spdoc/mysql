@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-03-23 14:15:11.992 UTC</timestamp>
+  <md5sum>ef668d27ef82ed8c3557e4d4d5734954</md5sum>
+  <fileName>Credential id=githubjen name=sumeetpanse@gmail.com/****** (githubjen)</fileName>
+  <usages>
+    <entry>
+      <string>InfyWikiDeploy</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>Docker Image Update</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>pyapp</string>
+      <ranges>1-8</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.18">
+      <timestamp>1554406542179</timestamp>
+      <itemFullName>Docker Image Update</itemFullName>
+      <timestamp0>1554398983185</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

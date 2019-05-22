@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven
-Built-By: abayer
-Build-Jdk: 1.8.0_181
+Built-By: Wadeck
+Build-Jdk: 1.8.0_144
 Extension-Name: lockable-resources
 Specification-Title: This plugin allows to define lockable resources (
  such as printers, phones,
@@ -11,7 +11,7 @@ Specification-Title: This plugin allows to define lockable resources (
  		resource which is already locked, it will wait for the resource to 
  be free.
 Implementation-Title: lockable-resources
-Implementation-Version: 2.4
+Implementation-Version: 2.5
 Plugin-Class: org.jenkins.plugins.lockableresources.LockableResources
 Group-Id: org.6wind.jenkins
 Short-Name: lockable-resources
@@ -19,7 +19,7 @@ Long-Name: Lockable Resources plugin
 Url: https://wiki.jenkins-ci.org/display/JENKINS/Lockable+Resources+Pl
  ugin
 Compatible-Since-Version: 2.0
-Plugin-Version: 2.4
+Plugin-Version: 2.5
 Hudson-Version: 1.609.1
 Jenkins-Version: 1.609.1
 Plugin-Dependencies: workflow-step-api:1.14,workflow-support:1.14,mail

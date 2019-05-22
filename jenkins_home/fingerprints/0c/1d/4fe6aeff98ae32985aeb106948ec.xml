@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-03-23 11:44:21.231 UTC</timestamp>
+  <md5sum>0c1d4fe6aeff98ae32985aeb106948ec</md5sum>
+  <fileName>Credential id=70d6c20d-ae4b-4df9-823c-e693649413b1 name=sumeetpanse@yahoo.com/******</fileName>
+  <usages>
+    <entry>
+      <string>ECSUpdate</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>ECSScale</string>
+      <ranges>1-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

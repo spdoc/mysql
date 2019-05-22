@@ -1,0 +1,374 @@
+commit 8cef78916b206fc05e02a256fa5a3629cafb250b
+tree 1a9b17514ac3f7ecca13bcb2c1e4c705ca6dcef5
+parent c1ae37d226ba3fef8d06831fd32bc6b978086474
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-06 01:19:35 +0530
+committer GitHub <noreply@github.com> 2019-04-06 01:19:35 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 8648848f73707cc290362e10bb778ea05b8f40bc 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 M	app/LocalSettings1.php
+commit c1ae37d226ba3fef8d06831fd32bc6b978086474
+tree 43a2ecd2032131634c593b8f6d67289ea6941482
+parent edbe9783d3cde083fec873fa232e36bbff870152
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 21:03:30 +0530
+committer GitHub <noreply@github.com> 2019-04-04 21:03:30 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 8648848f73707cc290362e10bb778ea05b8f40bc M	app/LocalSettings1.php
+commit edbe9783d3cde083fec873fa232e36bbff870152
+tree 1a9b17514ac3f7ecca13bcb2c1e4c705ca6dcef5
+parent b0e91b3d409023b8602026d09f366ec370c47142
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 19:55:44 +0530
+committer GitHub <noreply@github.com> 2019-04-04 19:55:44 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 f5824574d0d1dc96a145c7531bbf84da31762db0 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 M	app/LocalSettings1.php
+commit b0e91b3d409023b8602026d09f366ec370c47142
+tree 710d4a94c52a563507266546118e2fbbfecf9523
+parent bf04294dc99dd2866d3a2446a249b9c4389d33ab
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 19:51:28 +0530
+committer GitHub <noreply@github.com> 2019-04-04 19:51:28 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 8648848f73707cc290362e10bb778ea05b8f40bc f5824574d0d1dc96a145c7531bbf84da31762db0 M	app/LocalSettings1.php
+commit bf04294dc99dd2866d3a2446a249b9c4389d33ab
+tree 43a2ecd2032131634c593b8f6d67289ea6941482
+parent 26cadae253a4e5a394efa33161f2d836df6a2879
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 19:17:48 +0530
+committer GitHub <noreply@github.com> 2019-04-04 19:17:48 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 ec922083bee471cbe0f1acd11ccdc3b1d319379d 8648848f73707cc290362e10bb778ea05b8f40bc M	app/LocalSettings1.php
+commit 26cadae253a4e5a394efa33161f2d836df6a2879
+tree b661b4b734db18537e6111e7482fa7b7907d3aab
+parent 2627d224054b75afce3110590899dbbc3d3f5f4c
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 18:54:07 +0530
+committer GitHub <noreply@github.com> 2019-04-04 18:54:07 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 f5824574d0d1dc96a145c7531bbf84da31762db0 ec922083bee471cbe0f1acd11ccdc3b1d319379d M	app/LocalSettings1.php
+commit 2627d224054b75afce3110590899dbbc3d3f5f4c
+tree 710d4a94c52a563507266546118e2fbbfecf9523
+parent 216dc01b4d1383764ae8e6a184da7e87ca8c3eb8
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 18:46:02 +0530
+committer GitHub <noreply@github.com> 2019-04-04 18:46:02 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 8648848f73707cc290362e10bb778ea05b8f40bc f5824574d0d1dc96a145c7531bbf84da31762db0 M	app/LocalSettings1.php
+commit 216dc01b4d1383764ae8e6a184da7e87ca8c3eb8
+tree 43a2ecd2032131634c593b8f6d67289ea6941482
+parent 5a5fd4158d7f7da885b036a83b691e3416929dd2
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 18:38:25 +0530
+committer GitHub <noreply@github.com> 2019-04-04 18:38:25 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 52d77f7e0fc2f59cd885c20c36f28e0aaba27154 8648848f73707cc290362e10bb778ea05b8f40bc M	app/LocalSettings1.php
+commit 5a5fd4158d7f7da885b036a83b691e3416929dd2
+tree 9ceb821ad5bb0ecde60f8e037bafa02b9a618d4a
+parent a2b8ce213ee48baf5c31168275c2048728e1d10e
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 18:30:44 +0530
+committer GitHub <noreply@github.com> 2019-04-04 18:30:44 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 52d77f7e0fc2f59cd885c20c36f28e0aaba27154 M	app/LocalSettings1.php
+commit a2b8ce213ee48baf5c31168275c2048728e1d10e
+tree 1a9b17514ac3f7ecca13bcb2c1e4c705ca6dcef5
+parent a1a51b87400d3792b2c7cd00edf62f31ea95c912
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-04 18:27:43 +0530
+committer GitHub <noreply@github.com> 2019-04-04 18:27:43 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 085a88f68aef7c609bb7c8b75f169072688e0856 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 M	app/LocalSettings1.php
+commit a1a51b87400d3792b2c7cd00edf62f31ea95c912
+tree 7aea29941427f3130d9095b5efedcd9d9056a9e5
+parent 1c8a1e48074fe3eb6fa9a283c985cc87da9318a5
+author root <root@ip-172-31-27-224.ap-south-1.compute.internal> 2019-04-03 15:59:34 +0000
+committer root <root@ip-172-31-27-224.ap-south-1.compute.internal> 2019-04-03 15:59:34 +0000
+
+    Updated
+
+
+
+:100644 100644 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 085a88f68aef7c609bb7c8b75f169072688e0856 M	app/LocalSettings1.php
+commit 1c8a1e48074fe3eb6fa9a283c985cc87da9318a5
+tree 1a9b17514ac3f7ecca13bcb2c1e4c705ca6dcef5
+parent fd1822620b47f3c0443c3e926998e80ab37b48c0
+author root <root@ip-172-31-27-224.ap-south-1.compute.internal> 2019-04-03 10:16:24 +0000
+committer root <root@ip-172-31-27-224.ap-south-1.compute.internal> 2019-04-03 10:16:24 +0000
+
+    Updated Localsettings.php
+
+
+
+:100644 100644 8648848f73707cc290362e10bb778ea05b8f40bc 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 M	app/LocalSettings1.php
+commit fd1822620b47f3c0443c3e926998e80ab37b48c0
+tree 43a2ecd2032131634c593b8f6d67289ea6941482
+parent c70abbbc51e690015b93a1644a10d4d605f8114e
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-03 14:28:43 +0530
+committer GitHub <noreply@github.com> 2019-04-03 14:28:43 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 085a88f68aef7c609bb7c8b75f169072688e0856 8648848f73707cc290362e10bb778ea05b8f40bc M	app/LocalSettings1.php
+commit c70abbbc51e690015b93a1644a10d4d605f8114e
+tree 7aea29941427f3130d9095b5efedcd9d9056a9e5
+parent f0c5cd3c02b9e8b8c6378dc70abea45a83c2683e
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-03 14:24:13 +0530
+committer GitHub <noreply@github.com> 2019-04-03 14:24:13 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 085a88f68aef7c609bb7c8b75f169072688e0856 M	app/LocalSettings1.php
+commit f0c5cd3c02b9e8b8c6378dc70abea45a83c2683e
+tree 1a9b17514ac3f7ecca13bcb2c1e4c705ca6dcef5
+parent 5a3ede478950008bf208b9c23012d4c47f3c7540
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-03 01:32:00 +0530
+committer GitHub <noreply@github.com> 2019-04-03 01:32:00 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 52d77f7e0fc2f59cd885c20c36f28e0aaba27154 0ebd16aaefda4c538a76a685f7e1e6af5ba96a49 M	app/LocalSettings1.php
+commit 5a3ede478950008bf208b9c23012d4c47f3c7540
+tree 9ceb821ad5bb0ecde60f8e037bafa02b9a618d4a
+parent af1b6e87582c5355baa8ac4d241f381766a93260
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-03 01:26:32 +0530
+committer GitHub <noreply@github.com> 2019-04-03 01:26:32 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 085a88f68aef7c609bb7c8b75f169072688e0856 52d77f7e0fc2f59cd885c20c36f28e0aaba27154 M	app/LocalSettings1.php
+commit af1b6e87582c5355baa8ac4d241f381766a93260
+tree 7aea29941427f3130d9095b5efedcd9d9056a9e5
+parent 5055d0f76ed4142cd69f3e341d20b4cde72a03e0
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-03 01:23:04 +0530
+committer GitHub <noreply@github.com> 2019-04-03 01:23:04 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 97b76a5175caa73a6d519cecc527c7911dfa34f0 085a88f68aef7c609bb7c8b75f169072688e0856 M	app/LocalSettings1.php
+commit 5055d0f76ed4142cd69f3e341d20b4cde72a03e0
+tree 0ae365c041258a853d7836db7fd314b0e3b6b1af
+parent 043309bd4b129405519a7cac31c11666162d949f
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-03 01:15:18 +0530
+committer GitHub <noreply@github.com> 2019-04-03 01:15:18 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 e521f73e214c5d3cbdb8315e97d7fcaa8973af42 97b76a5175caa73a6d519cecc527c7911dfa34f0 M	app/LocalSettings1.php
+commit 043309bd4b129405519a7cac31c11666162d949f
+tree a7651a6c64ce6ac35c1c0cbfe6ff11df7b1b52f5
+parent 7e6ad5248de232e476f8583813ab7f029b57d44d
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 23:08:52 +0530
+committer GitHub <noreply@github.com> 2019-04-02 23:08:52 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 d084996fda6f1b14dc719ba9de145928acb11920 e521f73e214c5d3cbdb8315e97d7fcaa8973af42 M	app/LocalSettings1.php
+commit 7e6ad5248de232e476f8583813ab7f029b57d44d
+tree 9a0798623e390bddb3d33c841cab90a8efcb8c55
+parent 2e5cbbd81a50c27703e81c330ab2084f6ffafd4e
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 23:04:32 +0530
+committer GitHub <noreply@github.com> 2019-04-02 23:04:32 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 8c9bea5c5a5da3255424bee925b020e401f48be9 d084996fda6f1b14dc719ba9de145928acb11920 M	app/LocalSettings1.php
+commit 2e5cbbd81a50c27703e81c330ab2084f6ffafd4e
+tree 85aaf6cc134c694b6d9b21d59d982ad076671ea2
+parent 141e34266f32c310d3d3cd3132e00878f8d5b13a
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:59:39 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:59:39 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 3d9fff5f79dd8b1fb852ad19796ef45de8093e28 8c9bea5c5a5da3255424bee925b020e401f48be9 M	app/LocalSettings1.php
+commit 141e34266f32c310d3d3cd3132e00878f8d5b13a
+tree 8957b332144fdc2a4c2e158c26dd46131ea0be9c
+parent ea13e3776617168b0deeecce72ea8e7f4b98f68a
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:53:41 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:53:41 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 d084996fda6f1b14dc719ba9de145928acb11920 3d9fff5f79dd8b1fb852ad19796ef45de8093e28 M	app/LocalSettings1.php
+commit ea13e3776617168b0deeecce72ea8e7f4b98f68a
+tree 9a0798623e390bddb3d33c841cab90a8efcb8c55
+parent 3b56f53555afb74f3571a214a7a6bcd6e30184cc
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:41:56 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:41:56 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 8c9bea5c5a5da3255424bee925b020e401f48be9 d084996fda6f1b14dc719ba9de145928acb11920 M	app/LocalSettings1.php
+commit 3b56f53555afb74f3571a214a7a6bcd6e30184cc
+tree 85aaf6cc134c694b6d9b21d59d982ad076671ea2
+parent db503cd1512b54329fbbc00b02145751437b7cf5
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:35:00 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:35:00 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 463f19b6c5d81c90db596daa26deeda4a91a853b 8c9bea5c5a5da3255424bee925b020e401f48be9 M	app/LocalSettings1.php
+commit db503cd1512b54329fbbc00b02145751437b7cf5
+tree 9b3d88c2a9f13b115709d593c2ff2803fbaeaa3b
+parent 40f33809ef2dd1f0649214e056ca9d1b33de4e14
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:26:53 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:26:53 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 368c404ce86ae4c351c5fabc4da5182314f38c1f 463f19b6c5d81c90db596daa26deeda4a91a853b M	app/LocalSettings1.php
+commit 40f33809ef2dd1f0649214e056ca9d1b33de4e14
+tree 44e591502ccb9c5a2ba838527689b55daf6317d3
+parent c320f446fe8449935c6ade89f581a796d49586f9
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:21:25 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:21:25 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 f1b96394270910a7d07803280b853251a45a14e1 368c404ce86ae4c351c5fabc4da5182314f38c1f M	app/LocalSettings1.php
+commit c320f446fe8449935c6ade89f581a796d49586f9
+tree 4309f856da4aedd88648a4176ac7b68edeb74595
+parent 756567f64f394c6bcd065d45aa5fd77360e4fef8
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:18:27 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:18:27 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 d45255b4e2915384f24f255c942a88e54b61f5f0 f1b96394270910a7d07803280b853251a45a14e1 M	app/LocalSettings1.php
+commit 756567f64f394c6bcd065d45aa5fd77360e4fef8
+tree 015579147fe83a9114e0c064ad7954b199601eb4
+parent b8ade746320b97d5dd1b6127c324441640f98285
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:07:50 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:07:50 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 d5419edef7258824896368b34a2e06485d8c9dc0 d45255b4e2915384f24f255c942a88e54b61f5f0 M	app/LocalSettings1.php
+commit b8ade746320b97d5dd1b6127c324441640f98285
+tree fac2018756d8106db835e8f26139bf9281c01005
+parent 23cdc0fbeb7dbf6bf93edc955e22aedcf9460077
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 22:03:45 +0530
+committer GitHub <noreply@github.com> 2019-04-02 22:03:45 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 a3912e5b606c00c5c16601ddacc34232d1fe359b d5419edef7258824896368b34a2e06485d8c9dc0 M	app/LocalSettings1.php
+commit 23cdc0fbeb7dbf6bf93edc955e22aedcf9460077
+tree 0a07dc774be839b8778985ec408cac5c91ce9ce2
+parent f59cac04955d58eb8f3edb32d8eddfbfae01b7f3
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 21:09:12 +0530
+committer GitHub <noreply@github.com> 2019-04-02 21:09:12 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 224e27880f4912b4a51d1f787e8fab3678542cdc a3912e5b606c00c5c16601ddacc34232d1fe359b M	app/LocalSettings1.php
+commit f59cac04955d58eb8f3edb32d8eddfbfae01b7f3
+tree 1891b9d6cd8fe8898ec6baff4292aa12bbcfe19d
+parent c5aa6b8a2c645948e4088e19db8a3bd445537d4a
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 21:01:34 +0530
+committer GitHub <noreply@github.com> 2019-04-02 21:01:34 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 cb25659c4036d1c428875fc0f93fb58d721dc576 224e27880f4912b4a51d1f787e8fab3678542cdc M	app/LocalSettings1.php
+commit c5aa6b8a2c645948e4088e19db8a3bd445537d4a
+tree 504af9ad9759f3b9f405076926a949f5d73ac48a
+parent 4e03130f8efbec990ebe77a7471ca100ef799ede
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 20:58:26 +0530
+committer GitHub <noreply@github.com> 2019-04-02 20:58:26 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 224e27880f4912b4a51d1f787e8fab3678542cdc cb25659c4036d1c428875fc0f93fb58d721dc576 M	app/LocalSettings1.php
+commit 4e03130f8efbec990ebe77a7471ca100ef799ede
+tree 1891b9d6cd8fe8898ec6baff4292aa12bbcfe19d
+parent 0ce80cecaeedf56e80e4d9414ad978f31f281873
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 20:53:47 +0530
+committer GitHub <noreply@github.com> 2019-04-02 20:53:47 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 9108d93c0834a3a9f38b2536fb4fe5929f0db7a5 224e27880f4912b4a51d1f787e8fab3678542cdc M	app/LocalSettings1.php
+commit 0ce80cecaeedf56e80e4d9414ad978f31f281873
+tree d9962acbbf1d18c972ac7b477608e667534f6b37
+parent 17c35ed55d7912046ac11147a6a1c84dba3952b4
+author spdoc <46932662+spdoc@users.noreply.github.com> 2019-04-02 20:48:30 +0530
+committer GitHub <noreply@github.com> 2019-04-02 20:48:30 +0530
+
+    Update LocalSettings1.php
+
+
+
+:100644 100644 5c04da4b4b8c9951fc0f22899ff52d383a700f92 9108d93c0834a3a9f38b2536fb4fe5929f0db7a5 M	app/LocalSettings1.php

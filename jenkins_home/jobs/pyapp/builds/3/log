@@ -1,0 +1,85 @@
+Started by user [8mha:////4P98+vbFxKxhQ1tJvcAEus6ncYEv2g9ojeP+dAFxbJXsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/pyapp
+using credential githubjen
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/spdoc/GlobalHackathon.git # timeout=10
+Fetching upstream changes from https://github.com/spdoc/GlobalHackathon.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git fetch --tags --progress https://github.com/spdoc/GlobalHackathon.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1b94e58ff1644ba290eefda2f92608dae480ed31 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1b94e58ff1644ba290eefda2f92608dae480ed31
+Commit message: "Create Dockerfile"
+ > git rev-list --no-walk 1b94e58ff1644ba290eefda2f92608dae480ed31 # timeout=10
+[SSH] script:
+
+sudo sh -c 'aws logs create-log-group --log-group-name pyapp_app;rm -rf GlobalHackathon;git clone https://sumeetpanse%40gmail.com:SPdoc%406177@github.com/spdoc/GlobalHackathon.git;cd GlobalHackathon;docker build . -t sumeetpanse/hackathonapp:pyapp;docker push sumeetpanse/hackathonapp:pyapp;ecs-cli compose --file docker-compose2.yml --project-name pyt --verbose create > taskpyt;TD=$(grep -r "TaskDefinition=\"pyt:*" taskpyt | cut -f5 -d"=" | tr -d "\"" | tr -d "\,");aws ecs create-service --service-name "pyt" --cluster "InfyWiki" --task-definition $TD --desired-count 1 --deployment-configuration "maximumPercent=200,minimumHealthyPercent=50";'
+
+[SSH] executing...
+
+An error occurred (ResourceAlreadyExistsException) when calling the CreateLogGroup operation: The specified log group already exists
+Cloning into 'GlobalHackathon'...
+Sending build context to Docker daemon   80.9kB
+Step 1/5 : FROM python:3.4-alpine
+ ---> c06adcf62f6e
+Step 2/5 : ADD . /code
+ ---> 17631733b0c8
+Step 3/5 : WORKDIR /code
+ ---> Running in 285c7fdd3027
+Removing intermediate container 285c7fdd3027
+ ---> c43b73dc0e25
+Step 4/5 : RUN pip install -r requirements.txt
+ ---> Running in b534ff3251a6
+The command '/bin/sh -c pip install -r requirements.txt' returned a non-zero code: 1
+An image does not exist locally with the tag: sumeetpanse/hackathonapp
+[91mDEPRECATION: Python 3.4 support has been deprecated. pip 19.1 will be the last one supporting it. Please upgrade your Python as Python 3.4 won't be maintained after March 2019 (cf PEP 429).
+[0m[91mCould not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+[0mThe push refers to repository [docker.io/sumeetpanse/hackathonapp]
+{
+    "service": {
+        "status": "ACTIVE", 
+        "serviceRegistries": [], 
+        "pendingCount": 0, 
+        "launchType": "EC2", 
+        "enableECSManagedTags": false, 
+        "schedulingStrategy": "REPLICA", 
+        "loadBalancers": [], 
+        "placementConstraints": [], 
+        "createdAt": 1554490803.691, 
+        "desiredCount": 1, 
+        "serviceName": "pyt", 
+        "clusterArn": "arn:aws:ecs:ap-south-1:047164039696:cluster/InfyWiki", 
+        "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/pyt:9", 
+        "serviceArn": "arn:aws:ecs:ap-south-1:047164039696:service/pyt", 
+        "propagateTags": "NONE", 
+        "deploymentConfiguration": {
+            "maximumPercent": 200, 
+            "minimumHealthyPercent": 50
+        }, 
+        "deployments": [
+            {
+                "status": "PRIMARY", 
+                "pendingCount": 0, 
+                "launchType": "EC2", 
+                "createdAt": 1554490803.691, 
+                "desiredCount": 1, 
+                "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/pyt:9", 
+                "updatedAt": 1554490803.691, 
+                "id": "ecs-svc/9223370482363972105", 
+                "runningCount": 0
+            }
+        ], 
+        "events": [], 
+        "runningCount": 0, 
+        "placementStrategy": []
+    }
+}
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

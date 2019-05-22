@@ -1,0 +1,12 @@
+Started on Apr 5, 2019 7:49:37 PM
+Started by event from 192.30.252.37 ⇒ http://www.jenk.infywiki.tk/github-webhook/ on Fri Apr 05 19:49:37 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 17c35ed55d7912046ac11147a6a1c84dba3952b4 (refs/remotes/origin/master)
+using credential githubjen
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git ls-remote -h https://github.com/spdoc/InfyWiki.git # timeout=10
+Found 1 remote heads on https://github.com/spdoc/InfyWiki.git
+[poll] Latest remote head revision on refs/heads/master is: 8cef78916b206fc05e02a256fa5a3629cafb250b
+Done. Took 2 sec
+Changes found

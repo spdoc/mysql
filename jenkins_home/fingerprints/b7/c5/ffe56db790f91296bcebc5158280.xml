@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-04 17:30:07.591 UTC</timestamp>
+  <original>
+    <name>Docker Image Update</name>
+    <number>1</number>
+  </original>
+  <md5sum>b7c5ffe56db790f91296bcebc5158280</md5sum>
+  <fileName>Docker image sha256:b7c5ffe56db790f91296bcebc5158280933712ee2fc8e6dc7d6c96dbb1632431</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1554399007590</timestamp>
+      <imageId>sha256:b7c5ffe56db790f91296bcebc5158280933712ee2fc8e6dc7d6c96dbb1632431</imageId>
+      <usages>
+        <entry>
+          <string>Docker Image Update</string>
+          <ranges>1-2</ranges>
+        </entry>
+      </usages>
+      <descendantImageIds class="sorted-set">
+        <string>sha256:247583152b0671406eafb2a862de64afa5ef0a2062d8ad370e39676a45164b9f</string>
+        <string>sha256:f20524888b585826f21c6bc3397467f2ee486d910ed0dabc6ddf334b959297a5</string>
+      </descendantImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet>
+  </facets>
+</fingerprint>

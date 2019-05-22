@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.2">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.65">
+    <parentIds>
+      <string>34</string>
+    </parentIds>
+    <id>35</id>
+    <descriptorId>org.jenkinsci.plugins.docker.workflow.RegistryEndpointStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.65">
+      <arguments>
+        <entry>
+          <string>url</string>
+          <string></string>
+        </entry>
+        <entry>
+          <string>credentialsId</string>
+          <wf.a.ArgumentsAction_-NotStoredReason>MASKED_VALUE</wf.a.ArgumentsAction_-NotStoredReason>
+        </entry>
+        <entry>
+          <string>toolName</string>
+          <null/>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.33">
+      <startTime>1554406567291</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

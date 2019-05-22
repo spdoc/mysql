@@ -1,0 +1,59 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.3">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/spdoc/GlobalHackathon.git</url>
+        <credentialsId>githubjen</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.29.4">
+      <spec></spec>
+    </com.cloudbees.jenkins.GitHubPushTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <org.jvnet.hudson.plugins.SSHBuilder plugin="ssh@2.6.1">
+      <siteName>ec2-user@13.126.42.204:22</siteName>
+      <command>sudo sh -c &apos;aws logs create-log-group --log-group-name pyapp_app;
+VPC=$(aws ec2 describe-vpcs | grep -B15 &apos;:stack/amazon-ecs-cli-setup-InfyWiki&apos; | grep &quot;VpcId&quot; | cut -f2 -d&quot;:&quot; | tr -d &quot;\&quot;&quot; | tr -d &quot;\,&quot; | tr -d &quot; &quot;);
+aws elbv2 create-target-group --name pyapp1 --protocol HTTP --port 8000 --vpc-id $VPC &gt; pyappgrp;
+pyappgrp=$(grep &apos;arn:aws:elasticloadbalancing:&apos; pyappgrp | cut -f4 -d&quot;\&quot;&quot;);
+lbsarn=$(aws elbv2 describe-load-balancers --name infywikialb | grep &quot;LoadBalancerArn&quot; | cut -f4 -d&quot;\&quot;&quot;| tr -d &quot; &quot;);
+aws elbv2 create-listener --load-balancer-arn $lbsarn --protocol HTTP --port 8000  --default-actions Type=forward,TargetGroupArn=$pyappgrp &gt; lstnarn;
+lstnarn=$(aws elbv2 describe-listeners --load-balancer-arn $lbsarn | grep -A9 &quot;/wiki1&quot; | grep &quot;ListenerArn&quot; | cut -f4 -d&quot;\&quot;&quot;);
+aws elbv2 create-rule --listener-arn $lstnarn --priority 3 --conditions Field=host-header,Values=&apos;www.pyapp.infywiki.tk&apos; --actions Type=forward,TargetGroupArn=$pyappgrp
+aws elbv2 modify-target-group --target-group-arn $pyappgrp --health-check-protocol HTTP --health-check-port traffic-port --health-check-interval-seconds 30 --healthy-threshold-count 2 --unhealthy-threshold-count 3 --health-check-timeout-seconds 20 --matcher HttpCode=200
+rm -rf GlobalHackathon;
+git clone https://sumeetpanse%40gmail.com:SPdoc%406177@github.com/spdoc/GlobalHackathon.git;
+cd GlobalHackathon;
+docker build . -t sumeetpanse/hackathonapp:pyapp;docker push sumeetpanse/hackathonapp:pyapp;
+ecs-cli compose --file docker-compose2.yml --project-name pyt --verbose create &gt; taskpyt;
+TD=$(grep -r &quot;TaskDefinition=\&quot;pyt:*&quot; taskpyt | cut -f5 -d&quot;=&quot; | tr -d &quot;\&quot;&quot; | tr -d &quot;\,&quot;);
+aws ecs create-service --service-name &quot;pyt&quot; --cluster &quot;InfyWiki&quot; --task-definition $TD --load-balancers &quot;targetGroupArn=$pyappgrp,containerName=web,containerPort=5000&quot; --desired-count 1 --deployment-configuration &quot;maximumPercent=200,minimumHealthyPercent=50&quot;;&apos;</command>
+      <execEachLine>false</execEachLine>
+      <hideCommand>false</hideCommand>
+    </org.jvnet.hudson.plugins.SSHBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

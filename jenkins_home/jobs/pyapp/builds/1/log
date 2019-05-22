@@ -1,0 +1,36 @@
+Started by user [8mha:////4P98+vbFxKxhQ1tJvcAEus6ncYEv2g9ojeP+dAFxbJXsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/pyapp
+using credential githubjen
+Cloning the remote Git repository
+Cloning repository https://github.com/spdoc/GlobalHackathon.git
+ > git init /var/jenkins_home/workspace/pyapp # timeout=10
+Fetching upstream changes from https://github.com/spdoc/GlobalHackathon.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git fetch --tags --progress https://github.com/spdoc/GlobalHackathon.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/spdoc/GlobalHackathon.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/spdoc/GlobalHackathon.git # timeout=10
+Fetching upstream changes from https://github.com/spdoc/GlobalHackathon.git
+using GIT_ASKPASS to set credentials githubjen
+ > git fetch --tags --progress https://github.com/spdoc/GlobalHackathon.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1b94e58ff1644ba290eefda2f92608dae480ed31 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1b94e58ff1644ba290eefda2f92608dae480ed31
+Commit message: "Create Dockerfile"
+First time build. Skipping changelog.
+[SSH] script:
+
+sudo sh -c 'aws logs create-log-group --log-group-name pyapp_app;rm -rf GlobalHackathon;git clone https://sumeetpanse%40gmail.com:SPdoc%406177@github.com/spdoc/GlobalHackathon.git;cd GlobalHackathon;docker build -t . sumeetpanse/hackathonapp:pyapp;docker push sumeetpanse/hackathonapp:pyapp;ecs-cli compose --file docker-compose2.yml --project-name pyt --verbose create > taskpyt;TD=$(grep -r 'TaskDefinition="pyt:*' taskpyt | cut -f5 -d"=" | tr -d "\"" | tr -d "\,");aws ecs create-service --service-name "pyt" --cluster "InfyWiki" --task-definition $TD --desired-count 1 --deployment-configuration "maximumPercent=200,minimumHealthyPercent=50";'
+
+[SSH] executing...
+bash: -c: line 1: unexpected EOF while looking for matching `"'
+bash: -c: line 2: syntax error: unexpected end of file
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,157 @@
+Started by user [8mha:////4P98+vbFxKxhQ1tJvcAEus6ncYEv2g9ojeP+dAFxbJXsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/pyapp
+using credential githubjen
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/spdoc/GlobalHackathon.git # timeout=10
+Fetching upstream changes from https://github.com/spdoc/GlobalHackathon.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubjen
+ > git fetch --tags --progress https://github.com/spdoc/GlobalHackathon.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 01153e978d1e97f13f750ab44543223fb8fd26db (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 01153e978d1e97f13f750ab44543223fb8fd26db
+Commit message: "Update docker-compose2.yml"
+ > git rev-list --no-walk 1b94e58ff1644ba290eefda2f92608dae480ed31 # timeout=10
+[SSH] script:
+
+sudo sh -c 'aws logs create-log-group --log-group-name pyapp_app;
+VPC=$(aws ec2 describe-vpcs | grep -B15 ':stack/amazon-ecs-cli-setup-InfyWiki' | grep "VpcId" | cut -f2 -d":" | tr -d "\"" | tr -d "\," | tr -d " ");
+aws elbv2 create-target-group --name pyapp1 --protocol HTTP --port 8000 --vpc-id $VPC > pyappgrp;
+pyappgrp=$(grep 'arn:aws:elasticloadbalancing:' pyappgrp | cut -f4 -d"\"");
+lbsarn=$(aws elbv2 describe-load-balancers --name InfyWikialb | grep "LoadBalancerArn" | cut -f4 -d"\""| tr -d " ");
+aws elbv2 create-listener --load-balancer-arn $lbsarn --protocol HTTP --port 8000  --default-actions Type=forward,TargetGroupArn=$pyappgrp > lstnarn;
+lstnarn=$(grep "ListenerArn" lstnarn | cut -f4 -d"\"");
+aws elbv2 create-rule --listener-arn $lstnarn --priority 2 --conditions Field=host-header,Values='www.pyapp.infywiki.tk' --actions Type=forward,TargetGroupArn=$pyappgrp
+aws elbv2 modify-target-group --target-group-arn $pyappgrp --health-check-protocol HTTP --health-check-port traffic-port --health-check-interval-seconds 30 --healthy-threshold-count 2 --unhealthy-threshold-count 3 --health-check-timeout-seconds 20 --matcher HttpCode=200
+rm -rf GlobalHackathon;
+git clone https://sumeetpanse%40gmail.com:SPdoc%406177@github.com/spdoc/GlobalHackathon.git;
+cd GlobalHackathon;
+docker build . -t sumeetpanse/hackathonapp:pyapp;docker push sumeetpanse/hackathonapp:pyapp;
+ecs-cli compose --file docker-compose2.yml --project-name pyt --verbose create > taskpyt;
+TD=$(grep -r "TaskDefinition=\"pyt:*" taskpyt | cut -f5 -d"=" | tr -d "\"" | tr -d "\,");
+aws ecs create-service --service-name "pyt" --cluster "InfyWiki" --task-definition $TD --load-balancers "targetGroupArn=$pyappgrp,containerName=web,containerPort=5000" --desired-count 1 --deployment-configuration "maximumPercent=200,minimumHealthyPercent=50";'
+
+[SSH] executing...
+
+An error occurred (ResourceAlreadyExistsException) when calling the CreateLogGroup operation: The specified log group already exists
+{
+    "Rules": [
+        {
+            "Priority": "2", 
+            "Conditions": [
+                {
+                    "Field": "host-header", 
+                    "Values": [
+                        "www.pyapp.infywiki.tk"
+                    ]
+                }
+            ], 
+            "RuleArn": "arn:aws:elasticloadbalancing:ap-south-1:047164039696:listener-rule/app/InfyWikialb/89ed0ad4d9bbaee6/2af79e8e06cd2bf7/11912d51af64451c", 
+            "IsDefault": false, 
+            "Actions": [
+                {
+                    "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:047164039696:targetgroup/pyapp1/fa8254e0b856e5a8", 
+                    "Type": "forward"
+                }
+            ]
+        }
+    ]
+}
+Cloning into 'GlobalHackathon'...
+{
+    "TargetGroups": [
+        {
+            "HealthCheckPath": "/", 
+            "HealthCheckIntervalSeconds": 30, 
+            "VpcId": "vpc-073f99c19c973efc6", 
+            "Protocol": "HTTP", 
+            "HealthCheckTimeoutSeconds": 20, 
+            "TargetType": "instance", 
+            "HealthCheckProtocol": "HTTP", 
+            "Matcher": {
+                "HttpCode": "200"
+            }, 
+            "UnhealthyThresholdCount": 3, 
+            "HealthyThresholdCount": 2, 
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:047164039696:targetgroup/pyapp1/fa8254e0b856e5a8", 
+            "HealthCheckEnabled": true, 
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:ap-south-1:047164039696:loadbalancer/app/InfyWikialb/89ed0ad4d9bbaee6"
+            ], 
+            "HealthCheckPort": "traffic-port", 
+            "Port": 8000, 
+            "TargetGroupName": "pyapp1"
+        }
+    ]
+}
+Sending build context to Docker daemon  86.02kB
+Step 1/5 : FROM python:3.4-alpine
+ ---> c06adcf62f6e
+Step 2/5 : ADD . /code
+ ---> bc70a9245a41
+Step 3/5 : WORKDIR /code
+ ---> Running in e8a272a195f6
+Removing intermediate container e8a272a195f6
+ ---> cc068392decc
+Step 4/5 : RUN pip install -r requirements.txt
+ ---> Running in 1f17c950fab9
+The command '/bin/sh -c pip install -r requirements.txt' returned a non-zero code: 1
+An image does not exist locally with the tag: sumeetpanse/hackathonapp
+[91mDEPRECATION: Python 3.4 support has been deprecated. pip 19.1 will be the last one supporting it. Please upgrade your Python as Python 3.4 won't be maintained after March 2019 (cf PEP 429).
+[0m[91mCould not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+[0mThe push refers to repository [docker.io/sumeetpanse/hackathonapp]
+{
+    "service": {
+        "launchType": "EC2", 
+        "enableECSManagedTags": false, 
+        "loadBalancers": [
+            {
+                "containerName": "web", 
+                "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:047164039696:targetgroup/pyapp1/fa8254e0b856e5a8", 
+                "containerPort": 5000
+            }
+        ], 
+        "desiredCount": 1, 
+        "clusterArn": "arn:aws:ecs:ap-south-1:047164039696:cluster/InfyWiki", 
+        "serviceArn": "arn:aws:ecs:ap-south-1:047164039696:service/pyt", 
+        "deploymentConfiguration": {
+            "maximumPercent": 200, 
+            "minimumHealthyPercent": 50
+        }, 
+        "createdAt": 1554492015.921, 
+        "healthCheckGracePeriodSeconds": 0, 
+        "schedulingStrategy": "REPLICA", 
+        "placementConstraints": [], 
+        "deployments": [
+            {
+                "status": "PRIMARY", 
+                "pendingCount": 0, 
+                "launchType": "EC2", 
+                "createdAt": 1554492015.921, 
+                "desiredCount": 1, 
+                "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/pyt:10", 
+                "updatedAt": 1554492015.921, 
+                "id": "ecs-svc/9223370482362759878", 
+                "runningCount": 0
+            }
+        ], 
+        "serviceName": "pyt", 
+        "events": [], 
+        "runningCount": 0, 
+        "status": "ACTIVE", 
+        "serviceRegistries": [], 
+        "pendingCount": 0, 
+        "placementStrategy": [], 
+        "propagateTags": "NONE", 
+        "roleArn": "arn:aws:iam::047164039696:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS", 
+        "taskDefinition": "arn:aws:ecs:ap-south-1:047164039696:task-definition/pyt:10"
+    }
+}
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
